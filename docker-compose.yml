@@ -1,0 +1,32 @@
+version: '3.8'
+
+services:
+  prontus:
+    build: .
+    container_name: prontus11
+    ports:
+      - "8080:80"
+    volumes:
+      - ./data:/var/www/prontus   # Pour la persistance des données
+      - ./prontus.conf:/etc/apache2/sites-available/prontus.conf  # Monter le fichier de configuration Apache
+    restart: always
+
+    environment:
+      - APACHE_RUN_USER=www-data
+      - APACHE_RUN_GROUP=www-data
+      - APACHE_LOG_DIR=/var/log/apache2
+
+    depends_on:
+      - db
+
+  db:
+    image: mariadb:latest
+    container_name: prontus_db
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: mysecretpassword
+      MYSQL_DATABASE: prontusdb
+      MYSQL_USER: prontususer
+      MYSQL_PASSWORD: prontuspassword
+    volumes:
+      - ./mysql_data:/var/lib/mysql
