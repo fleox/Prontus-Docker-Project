@@ -89,7 +89,7 @@ To configure Prontus, you'll need to:
 
 ## Further Reading
 
-- [Prontus Official Documentation](https://example.com/prontus-docs)
+- [Prontus Official Documentation](https://develop.prontus.cl/prontus_desarrollo_v11_2/site/edic/base/port/inicio.html)
 - [Apache CGI Configuration](https://httpd.apache.org/docs/current/howto/cgi.html)
 - [Perl CGI Programming](https://perldoc.perl.org/CGI)
 
