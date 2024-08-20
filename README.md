@@ -10,9 +10,10 @@ prontus-docker/
 ├── docker-compose.yml
 ├── prontus.conf
 ├── data/
-│   └── ... (Prontus data, mounted in the container)
+│   ├── cgi-bin/
+│   ├── cgi-cpn/
+│   └── noticias/
 └── mysql_data/
-    └── ... (Database data, if using MariaDB)
 ```
 
 ### Files and Directories
