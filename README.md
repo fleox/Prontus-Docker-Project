@@ -4,6 +4,8 @@ This project provides a Dockerized setup for running Prontus 11 using Docker and
 
 For detailed information about PRONTUS, please refer to the [Directory Documentation](documentation/PRONTUS.md).
 
+For detailed information connection, please refer to the [Prontus 11 CMS Connection guide](documentation/CONNECTION.md).
+
 ## Project Structure
 
 ```
