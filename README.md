@@ -2,6 +2,8 @@
 
 This project provides a Dockerized setup for running Prontus 11 using Docker and Docker Compose. It includes a complete configuration for the web server and optional database support.
 
+For detailed information about PRONTUS, please refer to the [Directory Documentation](documentation/PRONTUS.md).
+
 ## Project Structure
 
 ```
