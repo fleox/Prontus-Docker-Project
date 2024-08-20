@@ -1,7 +1,3 @@
-Voici un exemple de fichier `README.md` pour documenter votre projet Docker avec Prontus 11 et Docker Compose :
-
----
-
 # Prontus 11 Docker Project
 
 This project provides a Dockerized setup for running Prontus 11 using Docker and Docker Compose. It includes a complete configuration for the web server and optional database support.
