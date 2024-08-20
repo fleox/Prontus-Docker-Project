@@ -24,6 +24,10 @@ prontus-docker/
 - **`data/`**: Directory to store persistent data for Prontus.
 - **`mysql_data/`**: Directory to store persistent data for the MariaDB database.
 
+#### Directory Structure
+
+For detailed information about the purpose and usage of the main directories in this project, please refer to the [Directory Documentation](documentation/DIRECTORY.md).
+
 ## Getting Started
 
 ### Prerequisites
