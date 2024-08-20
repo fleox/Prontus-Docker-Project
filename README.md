@@ -6,6 +6,8 @@ For detailed information about PRONTUS, please refer to the [Directory Documenta
 
 For detailed information connection, please refer to the [Prontus 11 CMS Connection guide](documentation/CONNECTION.md).
 
+For detailed information about configuration, please refer to the [Prontus 11 Configuration Files Guide](documentation/CONNECTION.md).
+
 ## Project Structure
 
 ```
