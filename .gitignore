@@ -2,3 +2,4 @@ prontus/*
 !prontus/.gitkeep
 .idea
 .DS_Store
+mysql_data/*

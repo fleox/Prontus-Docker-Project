@@ -5,7 +5,7 @@ services:
     build: .
     container_name: prontus11
     ports:
-      - "8080:80"
+      - "8090:80"
     volumes:
       - ./data:/var/www/prontus   # Pour la persistance des données
       - ./prontus.conf:/etc/apache2/sites-available/prontus.conf  # Monter le fichier de configuration Apache

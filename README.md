@@ -68,13 +68,13 @@ For detailed information about the purpose and usage of the main directories in 
    Once the containers are up and running, you can access Prontus through your web browser:
 
    ```url
-   http://localhost:8080
+   http://localhost:8090
    ```
 
    The admin interface is available at:
 
    ```url
-   http://localhost:8080/cgi-bin/admin.cgi
+   http://localhost:8090/cgi-bin/admin.cgi
    ```
 
 4. **Stop the Containers**
